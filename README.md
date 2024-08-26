@@ -1,6 +1,3 @@
-Sure! Here's the markdown code for the README:
-
-```markdown
 # JobQuest
 
 JobQuest is a web-based job board application built using PHP and the Laravel framework. It allows users to search and apply for jobs, as well as register as employers to post job listings. The platform provides a seamless experience for job seekers and employers alike, with features like job filtering, application tracking, and job posting management.
@@ -47,7 +44,7 @@ To run JobQuest locally, follow these steps:
 
 1. **Clone the Repository**: 
    ```bash
-   git clone <repository-url>
+   git clone git@github.com:aniruddha-10/JobQuest.git
    ```
 
 2. **Navigate to the Project Directory**:
@@ -88,4 +85,19 @@ Once the application is running, you can access it via `http://localhost:8000`. 
 
 - **Database Seeding**: The data seeded in the database is generated for demonstration purposes and is not real.
 - **Development Mode**: For local development, make sure to use `php artisan serve` and `npm run dev` to run the backend and frontend services respectively.
-```
+
+
+
+
+## Badges
+
+Add badges from somewhere like: [shields.io](https://shields.io/)
+
+[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
+[![GPLv3 License](https://img.shields.io/badge/License-GPL%20v3-yellow.svg)](https://opensource.org/licenses/)
+[![AGPL License](https://img.shields.io/badge/license-AGPL-blue.svg)](http://www.gnu.org/licenses/agpl-3.0)
+
+
+## Environment Variables
+Check the **.env.example** file for the required values that needs to be specified before running the project 
+
